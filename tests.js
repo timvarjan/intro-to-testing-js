@@ -26,7 +26,7 @@ describe('sayHello', function() {
     });
 })
 
-//3, 4, 5, 6, 7, 8
+//3, 4, 5, 6, 7, 8, 9
 describe('sayHello', function() {
     it('should return Hello, Jane!', function() {
         expect(sayHello('Jane')).toBe('Hello, Jane!');
@@ -40,5 +40,19 @@ describe('sayHello', function() {
     it('should return Hello, World!', function() {
         expect(sayHello('World')).toBe("Hello, World!");
     });
+})
+
+//10
+describe('isFive', function() {
+    it('should return a boolean when called', function() {
+        expect(typeof isFive()).toBe('boolean');
+    });
+    it('should return True when input is 5', function() {
+        expect(isFive(5)).toBe(true);
+    });
+    it('should return a True when input is "5"', function() {
+        expect(isFive('5')).toBe(true);
+    });
+
 })
 
