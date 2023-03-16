@@ -4,10 +4,5 @@ const helloWorld = function() {
 }
 
 const sayHello = function(x) {
-    if (x === "Alex") {
-        return "Hello, Alex!";
-    } else {
-        return "Hello, Jane!";
-    }
+    return "Hello, " + x + "!";
 }
-
