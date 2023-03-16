@@ -89,8 +89,18 @@ describe('isEven', function () {
     it('returns false when called without an argument like isEven()', function () {
         expect(isEven()).toBe(false);
     });
-
-
+})
+//12
+describe('isVowel', function () {
+    it('should be defined a function', function () {
+        expect(typeof isVowel).toBe('function');
+    });
+    it('should return a boolean', function () {
+        expect(typeof isVowel()).toBe('boolean');
+    });
+    it('isVowel("a") returns true', function () {
+        expect(isVowel("a")).toBe(true);
+    });
 })
 
 

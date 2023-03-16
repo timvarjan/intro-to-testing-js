@@ -27,3 +27,15 @@ const isEven = function(x) {
         return false;
     }
 }
+
+const isVowel = function(x) {
+    var vowelList = ["a", "e", "i", "o", "u"];
+    if (vowelList.includes(x)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+
