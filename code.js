@@ -15,3 +15,15 @@ const isFive = function(x) {
         return false;
     }
 }
+
+const isEven = function(x) {
+    if (x % 2 === 0) {
+        return true;
+    } else if (x === "true") {
+        return false;
+    } else if (x === "false") {
+        return false;
+    } else {
+        return false;
+    }
+}
