@@ -26,7 +26,7 @@ describe('sayHello', function() {
     });
 })
 
-//3, 4, 5,6
+//3, 4, 5, 6, 7, 8
 describe('sayHello', function() {
     it('should return Hello, Jane!', function() {
         expect(sayHello('Jane')).toBe('Hello, Jane!');
@@ -37,4 +37,8 @@ describe('sayHello', function() {
     it('should return Hello, Pat!', function() {
         expect(sayHello('Pat')).toBe('Hello, Pat!');
     });
+    it('should return Hello, World!', function() {
+        expect(sayHello('World')).toBe("Hello, World!");
+    });
 })
+
